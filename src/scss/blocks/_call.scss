@@ -1,0 +1,41 @@
+.call {
+    margin-top: 200px;
+    margin-bottom: 200px;
+}
+
+.call__contianer {
+    display: flex;
+    align-items: center;
+}
+
+.call__words {
+    margin-right: 125px;
+}
+
+.call_name {
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 44px;
+    letter-spacing: 1.42857px;
+    text-transform: uppercase;
+    color: #000;
+    width: 445px;
+}
+
+.call__cl {
+    color: #D87D4A;
+}
+
+.call__info {
+    width: 445px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.call__logo {
+    border-radius: 8px;
+}
+

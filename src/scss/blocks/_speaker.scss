@@ -1,0 +1,129 @@
+.speaker__container {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #D87D4A;
+    margin-bottom: 48px;
+    border-radius: 8px;
+
+    position: relative;
+
+    &::before {
+        position: absolute;
+        content: '';
+        width: 795px;
+        height: 560px;
+        background-image: url("../../img/line.png");
+        background-repeat: no-repeat;
+        left: 0;
+        top: 0;
+    }
+}
+
+.speaker__words {
+    margin-left: 140px;
+    position: relative;
+    z-index: 1;
+    margin-bottom: 100px;
+}
+
+.speaker__words-name {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 58px;
+    letter-spacing: 2px;
+    color: #FFF;
+    width: 260px;
+}
+
+.speaker__words-info {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.75;
+    width: 350px;
+    margin-bottom: 50px;
+}
+
+.speaker__words-link {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFF;
+    padding: 15px 30px;
+    background-color: #000;
+
+    &:hover {
+        background-color: #4C4C4C;
+    }
+}
+
+.speaker_img {
+    position: relative;
+    z-index: 1;
+}
+
+.zx7__container {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-image: url("../img/zx7.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+}
+
+.zx7__words {
+    margin-left: 95px;
+}
+
+.zx7__name {
+    font-weight: bold;
+    font-size: 28px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #000000;
+    margin-bottom: 32px;
+}
+
+.zx7__link {
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 18px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000;
+    padding: 14px 30px;
+    border: 1px solid #000;
+
+    &:hover {
+        color: #fff;
+        background-color: #000;
+    }
+}
+
+.yx1__container {
+    display: flex;
+    margin-top: 48px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.yx1__words {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 540px;
+    background: #F1F1F1;
+    border-radius: 8px;
+    margin-left: 30px;
+}
+.yx1__logo {
+    width: 540px;
+    border-radius: 8px;
+}
+.yx1l {
+    margin-left: 95px;
+}

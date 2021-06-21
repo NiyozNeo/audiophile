@@ -1,26 +1,26 @@
 @font-face {
-    font-family: 'Space Mono';
-    src: url('SpaceMono-Bold.woff2') format('woff2'),
-        url('SpaceMono-Bold.woff') format('woff');
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Bold.woff2') format('woff2'),
+        url('../fonts/Manrope-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Space Mono';
-    src: url('SpaceMono-Regular.woff2') format('woff2'),
-        url('SpaceMono-Regular.woff') format('woff');
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Regular.woff2') format('woff2'),
+        url('../fonts/Manrope-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Lexend Deca';
-    src: url('LexendDeca-Regular.woff2') format('woff2'),
-        url('LexendDeca-Regular.woff') format('woff');
-    font-weight: normal;
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-Medium.woff2') format('woff2'),
+        url('../fonts/Manrope-Medium.woff') format('woff');
+    font-weight: 500;
     font-style: normal;
     font-display: swap;
 }

@@ -1,0 +1,46 @@
+.burger {
+    display: none;
+}
+
+@media screen and (max-width: $mobile) {
+    .burger {
+        display: block;
+        margin-right: auto;
+        background-color: #fff;
+        border: none;
+        padding: 0;
+        width: 20px;
+    }
+
+
+    .burger::before,
+    .burger__inner,
+    .burger::after {
+        content: '';
+        display: block;
+        width: 100%;
+        height: 4px;
+        
+        background-color: #FCB72B;
+        margin-bottom: 3px;
+    }
+
+    .burger::after {
+        margin-bottom: 0;
+    }
+
+    .burger--active .burger__inner {
+        display: none;
+    }
+
+    .burger--active::before {
+        transform: rotate(45deg);
+        margin-bottom: 0;
+        position: relative;
+        top: 4px;
+    }
+
+    .burger--active::after {
+        transform: rotate(-45deg);
+    }
+}
