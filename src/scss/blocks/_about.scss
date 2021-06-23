@@ -1,0 +1,70 @@
+.about__words {
+    display: flex;
+}
+
+.about__features-name {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1.14286px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.about__features-info {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: rgba(0, 0, 0, .5);
+    width: 635px;
+}
+
+.about__features-info1 {
+    margin-top: 20px;
+}
+.about__box {
+    margin-left: 125px;
+}
+.about__box-list {
+    @include reset-list;
+}
+
+.about__boxlist-item {
+    display: flex;
+    
+}
+
+.about__box-name {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1.14286px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.about__boxlist-num {
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 4px;
+    color: #D87D4A;
+    margin-right: 24px;
+}
+
+.about__boxlist-name {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 4px;
+    color: rgba(0, 0, 0, .5);
+}
+
+.about__imgs {
+    display: flex;
+    margin-top: 160px;
+}
+.about__img {
+    border-radius: 8px;
+}
+.about__img1 {
+    margin-bottom: 32px;
+}

@@ -3,3 +3,16 @@
     margin: 0;
     list-style: none;
 }
+@mixin respond ($break) {
+    @if ($break==mobile) {
+      @media screen and (max-width: 700px) {
+        @content;
+      }
+    }
+  
+    @if ($break==tablet) {
+      @media screen and (max-width: 1200px) {
+        @content;
+      }
+    }
+}  
